@@ -21,8 +21,6 @@ console.log(`3 - Comparação entre o percentual de aumento salarial e o IPCA\n`
 
 let alternativa_escolhida = readlineSync.questionFloat(`Digite o numero da sua escolha: `);
 
-alternativa_escolhida = Number(alternativa_escolhida);
-
 let ano_salarial = 'Ano: ';
 let salario_minimo = 'Salário mínimo: ';
 let crescimento_salarial = 'Crescimento Salarial: ';
